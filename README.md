@@ -34,7 +34,7 @@
 
 7. **End.**
 
-**Why this works:** Passing `&a` and `&b` gives the function direct access to the original variables via pointers, so changing `*x` and `*y` modifies `a` and `b` in place.
+*:** Passing `&a` and `&b` gives the function direct access to the original variables via pointers, so changing `*x` and `*y` modifies `a` and `b` in place.
 
 For code 2:-
 Here’s the step-by-step algorithm for your program (swap using **pass-by-value**):
@@ -97,4 +97,3 @@ Here’s the step-by-step algorithm (pass-by-reference increment):
 
 7. **End.**
 
-*Note:* The printed text has no space after “function”/“main” because the strings don’t include a trailing space. If you want a space, write `"salary inside function "` and `"salary inside main "`.
