@@ -66,8 +66,6 @@ Here’s the step-by-step algorithm for your program (swap using **pass-by-value
 
    * `value of a is: 5`
    * `value of b  is: 2`
-
-> Note: In your code, the second `cout` is missing `b`. It should be:
 > `cout << "value of b  is:" << b << endl;`
 
 code 3:-
